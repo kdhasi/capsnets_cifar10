@@ -551,26 +551,3 @@ colorbar.set_label('Class')
 # Show the plot
 plt.legend()
 plt.show()
-
-# # Apply Fuzzy C-Means clustering
-# num_clusters = 10  # Number of clusters
-# fcm = fuzz.cluster.cmeans(selected_digit_capsules.T, c=num_clusters, m=2, error=0.005, maxiter=1000, init=None)
-#
-# # Get the cluster memberships for each data point
-# cluster_membership = np.argmax(fcm[1], axis=0)
-#
-# # Calculate t-SNE coordinates for visualization
-# tsne = TSNE(n_components=2, random_state=42)
-# tsne_result = tsne.fit_transform(selected_digit_capsules)
-#
-# # Plot t-SNE points with fuzzy clusters
-# plt.figure(figsize=(8, 8))
-# scatter = plt.scatter(tsne_result[:, 0], tsne_result[:, 1], c=cluster_membership, cmap='tab10', alpha=0.7)
-# plt.title('t-SNE Visualization with Fuzzy Clusters Based on Selected Digit Capsules')
-#
-# # Add colorbar
-# colorbar = plt.colorbar(scatter, pad=0.1)
-# colorbar.set_label('Cluster')
-#
-# # Show the plot
-# plt.show()
