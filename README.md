@@ -1,4 +1,4 @@
-# Implementation and visualization of a capsule network
+# Implementation and t-sne visualization of a capsule network
 
 A simple implementation of a capsule network in Tensorflow using the dynamic routing algorithm. 
 Additionally provides a tsne visualization of the digit capsules on the CIFAR-10 classes. Two sample images are attached below for observing the difference in the clusters formed between high-resolution (HR) images and very-low-resolution (VLR) images.
