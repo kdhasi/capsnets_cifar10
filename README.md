@@ -5,7 +5,7 @@ This code provides a Keras implmentation of the CapsNet using the CIFAR-10 datas
 The plots provide insight onto the clustering of the capsules as we see more discrete clusters formed with high-resolution images compared to the low-resolution counterparts.
 
 ## Credit
-The base capsule network model follows the implementation here: <a href="https://github.com/XifengGuo/CapsNet-Keras" target="_blank">link</a>. I credit the contributors of this repository.
+The base capsule network model follows the implementation here: <a href="https://github.com/XifengGuo/CapsNet-Keras" target="_blank">link</a>.
 
 ## t-SNE Diagrams for High-Resolution (32x32) vs Low-Resolution (8x8) CIFAR-10 Images
 
